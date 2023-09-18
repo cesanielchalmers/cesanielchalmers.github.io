@@ -1,0 +1,29 @@
+header{
+	display: flex;
+	height: 100px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	display: flex;
+	align-items:center
+}
+
+.logo img{
+	height: 100px
+}
+
+.top-header { 
+	height: 400px; 
+	background-image: url(header-img.png); 
+	background-size: cover; 
+	background-position: center; 
+} 
+ 
+.top-header > h1 { 
+	color: white; 
+	background-color: rgba(0,0,0,0); 
+	padding: 2em 1em; 
+	font-family: sans-serif; 
+} 
