@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {  
 font-family: 'Archivo';
     src: url("../fonts/Archivo-regular.ttf") format('truetype');
@@ -17,4 +18,25 @@ BODY {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+=======
+@font-face {  
+font-family: 'Archivo';
+    src: url("../fonts/Archivo-regular.ttf") format('truetype');
+}
+
+h1,
+.navbar-brand,
+.navbar-nav a {
+  font-family: 'Archivo', serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+BODY {
+    min-height: 100%;
+    background-image: url("bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+>>>>>>> 8c28b4f9e70969ab03e281f2fb88cb4f26da9c80
 }
