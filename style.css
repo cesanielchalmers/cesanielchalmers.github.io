@@ -1,29 +1,16 @@
-header{
-	display: flex;
-	height: 100px;
-	justify-content: space-between;
-	align-items: center;
+h1,
+.navbar-brand,
+.navbar-nav a {
+  font-family: 'Archivo', serif;
+    src: url("../cesanielchalmers.github.io/fonts/Archivo-regular.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
 }
 
-.logo{
-	display: flex;
-	align-items:center
+BODY {
+    min-height: 100%;
+    background-image: url("bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-.logo img{
-	height: 100px
-}
-
-.top-header { 
-	height: 400px; 
-	background-image: url(header-img.png); 
-	background-size: cover; 
-	background-position: center; 
-} 
- 
-.top-header > h1 { 
-	color: white; 
-	background-color: rgba(0,0,0,0); 
-	padding: 2em 1em; 
-	font-family: sans-serif; 
-} 
