@@ -1,8 +1,12 @@
+@font-face {  
+font-family: 'Archivo', serif;
+    src: url("../cesanielchalmers.github.io/fonts/Archivo-regular.ttf") format('truetype');
+}
+
 h1,
 .navbar-brand,
 .navbar-nav a {
   font-family: 'Archivo', serif;
-    src: url("../cesanielchalmers.github.io/fonts/Archivo-regular.ttf") format('truetype');
     font-weight: bold;
     font-style: normal;
 }
