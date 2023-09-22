@@ -8,3 +8,31 @@
   box-shadow: 0 0 0 .2rem #ff0f0080;
 }
 
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 580px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 580px) {
+  .mobile-only {
+    display: none;
+  }
+}
+
